@@ -48,6 +48,7 @@ body {
 .call,
 .message {
   width: 30px;
+  transition: width 0.001ms;
 }
 
 /* Tady napište své styly */
@@ -64,4 +65,5 @@ img.photo {
 .message:hover {
   transform: scale(1.3);
   cursor: pointer;
+  width: 35px;
 }
